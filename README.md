@@ -46,7 +46,7 @@ Five architectures were implemented and compared, progressively increasing in co
 
 **DNN1** — Four fully connected layers with ReLU activations and 0.2 dropout per layer.
 
-**DNN2** — CNN: three convolutional layers (4×4 kernels) with max pooling, followed by four fully connected layers with ReLU and dropout. ⭐ *Best performing model.*
+**DNN2** — CNN: three convolutional layers (4×4 kernels) with max pooling, followed by four fully connected layers with ReLU and dropout. *Best performing model.*
 
 **DNN3** — Deeper CNN: four convolutional layers with mixed max pooling, followed by four fully connected layers using tanh activations and mixed dropout rates.
 
@@ -93,7 +93,7 @@ run_on_test(DNN2())
 
 ---
 
-## Tech Stack
+## Dependencies
 
 - **PyTorch** — model definition, training, GPU support
 - **torchmetrics** — multiclass accuracy evaluation
